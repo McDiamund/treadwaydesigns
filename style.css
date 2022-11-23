@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: fugue;
+    src: url("./fugue.ttf");
+}
+
+@font-face {
+    font-family: din;
+    src: url("./din.ttf");
+}
+
+h1,h2,h3,h4 {
+    font-family: fugue;
+}
+
+.title-text {
+    font-family: fugue;
+    font-size: 60px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.sub-text {
+    font-family: fugue;
+    font-size: 30px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.menu {
+    text-decoration: none;
+    list-style: none;
+    font-family: din;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.menu li {
+    font-size: 40px;
+    margin-top: 1%;
+}
+
+.menu li:hover {
+    border-bottom: 2px solid gren;
+}
+
+body {
+    background-image: url("./background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    width: 50%;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.socials {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.socials img {
+    width: 80px;
+    height: 80px;
+}
